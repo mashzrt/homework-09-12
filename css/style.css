@@ -1,0 +1,63 @@
+/* montserrat-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/montserrat-v26-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* montserrat-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/montserrat-v26-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+section {
+  max-width: 700px;
+}
+input {
+  width: 220px;
+  height: 50px;
+  border-radius: 83px;
+  margin-bottom: 10px;
+  border-color: #bdbdbd;
+}
+.inf {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+h3 {
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-weight: normal;
+  color: #424242;
+  margin-top: 0;
+}
+h2 {
+  font-family: "Montserrat";
+  font-size: 28px;
+  color: #424242;
+}
+.email {
+  width: 456px;
+  margin-top: 15px;
+}
+.checkbox {
+  width: 30px;
+  height: 30px;
+  margin: 0;
+}
+input[type="radio"] {
+  width: 30px;
+}
+.payment {
+  max-width: 400px;
+}
+label {
+  display: flex;
+  margin-top: -42px;
+  margin-left: 42px;
+}
